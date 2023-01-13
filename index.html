@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body{
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: cadetblue;
+            
+        }
+        .head h1{
+            font-weight: 10vw;
+            background-color: blanchedalmond;
+            font-size: 20px;
+            margin: 0 auto;
+           align-items: center;
+           margin-top: 10px;
+           display: block;
+           border: 3px solid black;
+        }
+        .head{
+            justify-content: center;
+            align-items: center;
+        }
+        button:hover{
+            transform: rotate(5deg);
+        }
+
+
+       .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 10px;
+            width: 100%;
+            
+       }
+       .card:hover{
+        transform: translate(8px);
+        transition: transform 0.5s ease-in ;
+       }
+       .card{
+        border: 5px solid rgb(78, 81, 82);
+        width: 100%;
+        background-color: rosybrown;
+        border-radius: 20px;
+       }
+       .card img{
+        width: 100%;
+        margin-bottom: 5px;
+        border-radius: 25px;
+       }
+       .card1{
+        border: 6px solid rgb(78, 81, 82);
+        background-color: rgb(218, 235, 239);
+       }
+       button{
+        background-color: rgb(177, 166, 166);
+        border: 3px solid rgb(78, 81, 82) ;
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 10px;
+       }
+       @media  screen and (max-width: 576px)  {
+        .container{
+            grid-template-columns: repeat(1,1fr);
+            
+        }
+        .card{
+            gap: 20px;
+            margin-top: 30px;
+            width: 88%;
+        }
+        
+
+        
+       }
+    </style>
+</head>
+<body>
+    <div class="head"><h1>MotorBike Price Bangladesh</h1></div>
+    <div class="container">
+        <div class="card">
+            <img src="image/healthy-011636373981(1).png" alt="">
+           <div class="card1">
+            <h1>Damon Motors</h1>
+            <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+            <button>BUY NOW</button>
+            <h3>Price-100000 BDT</h3>
+           </div>
+        </div>
+        <div class="card">
+            <img src="image/healthy-011636373981(2).png" alt="">
+            <div class="card1">
+                <h1>China Bus
+                    Manufac</h1>
+                <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+                <button>BUY NOW</button>
+                <h3>Price-103000 BDT</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/healthy-011636373981(3).png" alt="">
+            <div class="card1">
+                <h1>Electrek’s Take</h1>
+            <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+            <button>BUY NOW</button>
+            <h3>Price-106000 BDT</h3>
+            </div>
+        </div>
+        <div class="card">
+            <img src="image/healthy-011636373981(4).png" alt="">
+            <div class="card1">
+            <h1>2019 Motorcycles</h1>
+            <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+            <button>BUY NOW</button>
+            <h3>Price-100500 BDT</h3>
+            </div>
+            
+        </div>
+        <div class="card">
+            <img src="image/healthy-011636373981(5).png" alt="">
+            <div class="card1">
+                <h1>HyperFighter</h1>
+                <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+                <button>BUY NOW</button>
+                <h3>Price-100400 BDT</h3>
+                
+                </div>
+        </div>
+        <div class="card">
+            <img src="image/healthy-011636373981(6).png" alt="">
+            <div class="card1">
+                <h1>2019 BMW R 1250 GS</h1>
+                <p>Canadian startup Damon Motors has taken to CES 2022 to show off plans for a second electric motorcycle line known as the HyperFighter Colossus.</p>
+                <button>BUY NOW</button>
+                <h3>Price-102000 BDT</h3>
+                </div>
+        </div>
+    </div>
+    
+</body>
+</html>
